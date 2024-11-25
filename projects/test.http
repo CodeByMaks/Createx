@@ -1,0 +1,12 @@
+### Добавить книгу
+POST http://127.0.0.1:8000/books/
+Content-Type: application/json
+
+{
+  "title": "Пример книги",
+  "author": "Автор",
+  "description": "Описание книги"
+}
+
+### Получить список книг
+GET http://127.0.0.1:8000/books/

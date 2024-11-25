@@ -8,7 +8,7 @@
   </head>
   <body class="max-w-screen-2xl m-auto">
     <header
-    class="w-full h-[1080px] bg-pink-200"
+    class="w-full h-[900px] bg-pink-200"
   >
   <div class="flex flex-wrap justify-around items-center py-6 px-4 md:px-8 lg:px-16">
     <div>
@@ -18,7 +18,7 @@
       <ul
         class="flex flex-wrap md:gap-8 gap-3 text-gray-700 justify-center md:justify-start"
       >
-        <li class="hover:text-red-500 cursor-pointer">About Us</li>
+        <li class="hover:text-red-500 cursor-pointer">About us</li>
         <li class="hover:text-red-500 cursor-pointer">Courses</li>
         <li class="hover:text-red-500 cursor-pointer">Events</li>
         <li class="hover:text-red-500 cursor-pointer">Blog</li>
@@ -36,44 +36,37 @@
     </div>
   </div>
 
-  <div class="md:w-[80%] w-[90%] m-auto flex flex-col lg:flex-row justify-between items-center py-16 lg:py-32">
+  <div class="md:w-[80%] w-[90%] m-auto flex flex-col lg:flex-row justify-between items-center py-8 lg:py-16">
     <div>
-      <div class="flex items-center">
-        <img src="../img/hover.png" alt="">
-        <p>Play showreel</p>
+      <div class="flex items-center gap-2">
+        <img src="../img/hover.png" alt="Icon" class="w-8 h-8">
+        <p class="text-sm sm:text-base">Play showreel</p>
       </div>
-      <h1 class="text-[64px] font-bold">Enjoy studying <br>
-        with Createx <br> Online Courses</h1>
-        <div class="flex gap-7 py-12">
-          <div>
-            <button class="w-full sm:w-auto py-3.5 px-6 lg:px-11 border-2 border-orange-600 text-orange-500 font-bold rounded-md">About us</button>
-          </div>
-          <div>
-            <button class="w-full sm:w-auto py-4 px-6 lg:px-11 bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-md">Explore courses</button>
-          </div>
-        </div>
+      <h1 class="text-[32px] sm:text-[48px] lg:text-[64px] font-bold leading-tight text-center lg:text-left mt-4">
+        Enjoy studying <br>
+        with Createx <br>
+        Online Courses
+      </h1>
+      <div class="flex flex-col sm:flex-row gap-4 py-8 justify-center lg:justify-start">
+        <button class="w-full sm:w-auto py-3 px-6 lg:px-8 border-2 border-orange-600 text-orange-500 font-bold rounded-md">
+          About us
+        </button>
+        <button class="w-full sm:w-auto py-3 px-6 lg:px-8 bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white font-bold rounded-md">
+          Explore courses
+        </button>
+      </div>
     </div>
-
+  
     <div class="mt-8 lg:mt-0">
-      <img src="../img/illustration (3).png" alt="Illustration" class="max-w-full h-auto">
+      <img src="../img/illustration (3).png" alt="Illustration" class="w-full max-w-sm lg:max-w-md h-auto mx-auto">
     </div>
-  </div>
+  </div>  
 
-  <aside class="w-[80%] m-auto flex justify-between">
-    <div class="w-[257px] flex items-center gap-3">
-      <div>
-        <p class="text-[40px] font-bold">1200</p>
-      </div>
-      <div>
-        <p>Students graduated</p>
-      </div>
-    </div>
-      <div class="w-[150px] flex items-center justify-center">
-        <p class="text-[40px] text-red-600">*</p>
-      </div>
+  <div class="hidden md:block">
+    <aside class="w-[80%] m-auto flex justify-between">
       <div class="w-[257px] flex items-center gap-3">
         <div>
-          <p class="text-[46px] font-bold">84</p>
+          <p class="text-[40px] font-bold">1200</p>
         </div>
         <div>
           <p>Students graduated</p>
@@ -84,7 +77,7 @@
         </div>
         <div class="w-[257px] flex items-center gap-3">
           <div>
-            <p class="text-[46px] font-bold">16</p>
+            <p class="text-[46px] font-bold">84</p>
           </div>
           <div>
             <p>Students graduated</p>
@@ -95,90 +88,105 @@
           </div>
           <div class="w-[257px] flex items-center gap-3">
             <div>
-              <p class="text-[46px] font-bold">5</p>
+              <p class="text-[46px] font-bold">16</p>
             </div>
             <div>
               <p>Students graduated</p>
             </div>
           </div>
-    </div>
-  </aside>
+            <div class="w-[150px] flex items-center justify-center">
+              <p class="text-[40px] text-red-600">*</p>
+            </div>
+            <div class="w-[257px] flex items-center gap-3">
+              <div>
+                <p class="text-[46px] font-bold">5</p>
+              </div>
+              <div>
+                <p>Students graduated</p>
+              </div>
+            </div>
+      </div>
+    </aside>
+  </div>
   </header>
 
   <main>
-    <section class="w-[80%] m-auto flex items-center gap-28 my-32">
-      <div>
-        <img src="../img/image5.png" alt="">
+    <section class="w-[90%] md:w-[80%] m-auto flex flex-col lg:flex-row items-center gap-10 lg:gap-28 my-32">
+
+      <div class="lg:w-1/2 mb-10 lg:mb-0">
+        <img src="../img/image5.png" alt="Createx image" class="w-full h-auto">
       </div>
-      <div>
-        <p class="text-[16px]">WHO WE ARE</p>
-        <h2 class="text-[46px] font-bold">Why Createx?</h2>
+
+      <div class="lg:w-1/2 text-center lg:text-left">
+        <p class="text-[16px] text-gray-600">WHO WE ARE</p>
+        <h2 class="text-[46px] font-bold mt-2">Why Createx?</h2>
 
         <div class="py-5">
           <div class="flex items-center gap-4 py-2">
             <div>
-              <img src="../img/check.png" alt="" />
+              <img src="../img/check.png" alt="Check" />
             </div>
-            <p>
-              A fermentum in morbi pretium aliquam adipiscing donec tempus.
-            </p>
+            <p>A fermentum in morbi pretium aliquam adipiscing donec tempus.</p>
           </div>
-
+    
           <div class="flex items-center gap-4 py-2">
             <div>
-              <img src="../img/check.png" alt="" />
+              <img src="../img/check.png" alt="Check" />
             </div>
             <p>Vulputate placerat amet pulvinar lorem nisl.</p>
           </div>
-
+    
           <div class="flex items-center gap-4 py-2">
             <div>
-              <img src="../img/check.png" alt="" />
+              <img src="../img/check.png" alt="Check" />
             </div>
-            <p>
-              Consequat feugiat habitant gravida quisque elit bibendum id
-              adipiscing sed.
-            </p>
+            <p>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</p>
           </div>
-
+    
           <div class="flex items-center gap-4 py-2">
             <div>
-              <img src="../img/check.png" alt="" />
+              <img src="../img/check.png" alt="Check" />
             </div>
             <p>Etiam duis lobortis in fames ultrices commodo nibh.</p>
           </div>
-
-        <div class="flex items-center gap-4 py-2">
-          <div>
-            <img src="../img/check.png" alt="" />
+    
+          <div class="flex items-center gap-4 py-2">
+            <div>
+              <img src="../img/check.png" alt="Check" />
+            </div>
+            <p>Tincidunt sagittis neque sem ac eget.</p>
           </div>
-          <p>Tincidunt sagittis neque sem ac eget.</p>
-        </div>
-
-        <div class="flex items-center gap-4 py-2">
-          <div>
-            <img src="../img/check.png" alt="" />
+    
+          <div class="flex items-center gap-4 py-2">
+            <div>
+              <img src="../img/check.png" alt="Check" />
+            </div>
+            <p>Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</p>
           </div>
-          <p>Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</p>
         </div>
-
         <div class="py-5">
-          <button class="w-full lg:w-auto py-3 px-11 bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-md">Explore courses</button>
+          <button class="w-full lg:w-auto py-3 px-11 bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-md">
+            Explore courses
+          </button>
         </div>
       </div>
     </section>
-    <aside class="w-[80%] m-auto py-8 flex justify-between items-center">
-      <div>
-        <p class="text-[16px] font-bold">READY TO LEARN?</p>
-        <h2 class="text-[46px] font-bold">Featured Courses</h2>
+    
+    <aside class="w-[90%] md:w-[80%] m-auto py-8 flex flex-col lg:flex-row justify-between items-center gap-6 lg:gap-28">
+      <div class="text-center lg:text-left">
+        <p class="text-[16px] font-bold text-gray-600">READY TO LEARN?</p>
+        <h2 class="text-[46px] font-bold mt-2">Featured Courses</h2>
       </div>
-      <div>
-        <button class="w-full lg:w-auto py-3 px-11 border-2 border-orange-400 text-orange-500 font-bold rounded-md">View all courses</button>
+ 
+      <div class="w-full lg:w-auto mt-6 lg:mt-0">
+        <button class="w-full lg:w-auto py-3 px-11 border-2 border-orange-400 text-orange-500 font-bold rounded-md hover:bg-orange-100 transition duration-300">
+          View all courses
+        </button>
       </div>
     </aside>
-
+    
     <section class="w-[80%] m-auto">
-      <div class="grid grid-cols-2 grid-rows-1 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-6">
         <div class="flex gap-7 shadow-xl">
           <div>
             <img src="../img/image6.png" alt="">
@@ -264,35 +272,41 @@
         <p class="text-[16px] font-bold">OUR BENEFITS</p>
         <h2 class="text-[46px] font-bold">That’s how we do it</h2>
       </div>
-
-      <div class="flex py-14">
-        <div>
-          <button class="w-[307px] py-2 border-2 border-orange-400 text-orange-400 font-bold"><img class="inline-block" src="../img/Star.png" alt=""> Experienced Tutors</button>
+    
+      <div class="flex flex-wrap justify-between py-14 gap-4">
+        <div class="w-full sm:w-auto">
+          <button class="w-[307px] py-2 border-2 border-orange-400 text-orange-400 font-bold">
+            <img class="inline-block" src="../img/Star.png" alt=""> Experienced Tutors
+          </button>
         </div>
-        <div>
-          <button class="w-[307px] py-2 font-bold"><img class="inline-block" src="../img/Star.png" alt=""> Experienced Tutors</button>
+        <div class="w-full sm:w-auto">
+          <button class="w-[307px] py-2 font-bold">
+            <img class="inline-block" src="../img/Star.png" alt=""> Experienced Tutors
+          </button>
         </div>
-        <div>
-          <button class="w-[307px] py-2 font-bold"><img class="inline-block" src="../img/Star.png" alt=""> Experienced Tutors</button>
-        </div>
-        <div>
-          <button class="w-[307px] py-2 font-bold"><img class="inline-block" src="../img/Star.png" alt=""> Experienced Tutors</button>
+        <div class="w-full sm:w-auto">
+          <button class="w-[307px] py-2 font-bold">
+            <img class="inline-block" src="../img/Star.png" alt=""> Experienced Tutors
+          </button>
         </div>
       </div>
-
-      <div class="flex justify-between items-center">
-        <div>
+  
+      <div class="flex flex-wrap justify-between items-center">
+        <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
           <h2 class="text-[32px] font-bold">Only practicing tutors</h2>
-          <p class="py-5 text-[16px]">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames <br> dictum suspendisse. 
+          <p class="py-5 text-[16px]">
+            Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames <br> dictum suspendisse. 
             Morbi mauris cras massa ut dolor quis sociis mollis <br> augue. Nunc, sodales tortor sit diam mi amet massa. 
             Fermentum diam <br> diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. 
-            <br> Amet enim, nisi tempus vehicula.</p>
+            <br> Amet enim, nisi tempus vehicula.
+          </p>
         </div>
-        <div>
+        <div class="w-full lg:w-1/2">
           <img src="../img/illustration (4).png" alt="">
         </div>
       </div>
     </section>
+    
 
     <section class="w-full h-[850px] bg-pink-200 py-24">
         <div class="text-center">
@@ -413,7 +427,7 @@
         </div>
       </aside>
 
-      <div class="w-[80%] m-auto grid grid-cols-4 grid-rows-1">
+      <div class="w-[80%] m-auto grid grid-cols-1 md:grid-cols-4 grid-rows-1">
         <div class="relative">
           <div>
             <img src="../img/background.png" alt="">
@@ -465,73 +479,75 @@
       </div>
     </section>
 
-<section class="w-[80%] m-auto py-20">
-  <aside class="w-full py-8 flex justify-between items-center">
-    <div>
-      <p class="text-[16px] font-bold">OUR BLOG</p>
-      <h2 class="text-[46px] font-bold">Latest posts</h2>
-    </div>
-    <div>
-      <button class="w-full lg:w-auto py-3 px-11 bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-md">Explore all events</button>
-    </div>
-  </aside>
-
-  <div class="grid grid-cols-1 md:grid-cols-3 grid-rows-1 gap-6">
-    <div>
-      <div>
-        <img src="../img/image.png" alt="" />
+    <section class="w-[80%] m-auto py-20">
+      <aside class="w-full py-8 flex flex-col lg:flex-row justify-between items-center">
+        <div class="text-center lg:text-left">
+          <p class="text-[16px] font-bold">OUR BLOG</p>
+          <h2 class="text-[46px] font-bold">Latest posts</h2>
+        </div>
+        <div class="mt-5 lg:mt-0">
+          <button class="w-full lg:w-auto py-3 px-11 bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-md">
+            Explore all events
+          </button>
+        </div>
+      </aside>
+    
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white p-5 rounded-md shadow-md">
+          <div>
+            <img src="../img/image.png" alt="Blog image" class="w-full h-48 object-cover rounded-md" />
+          </div>
+          <div>
+            <p class="text-gray-500 py-2">
+              Marketing | 
+              <img class="inline-block" src="../img/Calendar.png" alt="Calendar" />
+              September 4, 2020 | 
+              <img class="inline-block" src="../img/Clock.png" alt="Clock" />
+              36 min
+            </p>
+          </div>
+          <h2 class="text-xl font-bold">What is traffic arbitrage and does it really make money?</h2>
+          <p class="text-[16px] text-gray-600 py-2">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+          <p>Listen <span class="text-red-600">➔</span></p>
+        </div>
+    
+        <div class="bg-white p-5 rounded-md shadow-md">
+          <div>
+            <img src="../img/image.png" alt="Blog image" class="w-full h-48 object-cover rounded-md" />
+          </div>
+          <div>
+            <p class="text-gray-500 py-2">
+              Marketing | 
+              <img class="inline-block" src="../img/Calendar.png" alt="Calendar" />
+              September 4, 2020 | 
+              <img class="inline-block" src="../img/Clock.png" alt="Clock" />
+              36 min
+            </p>
+          </div>
+          <h2 class="text-xl font-bold">What is traffic arbitrage and does it really make money?</h2>
+          <p class="text-[16px] text-gray-600 py-2">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+          <p>Listen <span class="text-red-600">➔</span></p>
+        </div>
+    
+        <div class="bg-white p-5 rounded-md shadow-md">
+          <div>
+            <img src="../img/image.png" alt="Blog image" class="w-full h-48 object-cover rounded-md" />
+          </div>
+          <div>
+            <p class="text-gray-500 py-2">
+              Marketing | 
+              <img class="inline-block" src="../img/Calendar.png" alt="Calendar" />
+              September 4, 2020 | 
+              <img class="inline-block" src="../img/Clock.png" alt="Clock" />
+              36 min
+            </p>
+          </div>
+          <h2 class="text-xl font-bold">What is traffic arbitrage and does it really make money?</h2>
+          <p class="text-[16px] text-gray-600 py-2">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+          <p>Listen <span class="text-red-600">➔</span></p>
+        </div>
       </div>
-      <div>
-        <p class="text-gray-500 py-2">
-          Marketing |
-          <img class="inline-block" src="../img/Calendar.png" alt="" />
-          September 4, 2020 |
-          <img class="inline-block" src="../img/Clock.png" alt="" />
-          36 min
-        </p>
-      </div>
-      <h2>What is traffic arbitrage and does it really make money?</h2>
-      <p class="text-[16px] text-gray-600 py-2">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
-      <p>Listen <span class="text-red-600">➔</span> </p>
-    </div>
-
-    <div>
-      <div>
-        <img src="../img/image.png" alt="" />
-      </div>
-      <div>
-        <p class="text-gray-500 py-2">
-          Marketing |
-          <img class="inline-block" src="../img/Calendar.png" alt="" />
-          September 4, 2020 |
-          <img class="inline-block" src="../img/Clock.png" alt="" />
-          36 min
-        </p>
-      </div>
-      <h2>What is traffic arbitrage and does it really make money?</h2>
-      <p class="text-[16px] text-gray-600 py-2">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
-      <p>Listen <span class="text-red-600">➔</span> </p>
-    </div>
-
-    <div>
-      <div>
-        <img src="../img/image.png" alt="" />
-      </div>
-      <div>
-        <p class="text-gray-500 py-2">
-          Marketing |
-          <img class="inline-block" src="../img/Calendar.png" alt="" />
-          September 4, 2020 |
-          <img class="inline-block" src="../img/Clock.png" alt="" />
-          36 min
-        </p>
-      </div>
-      <h2>What is traffic arbitrage and does it really make money?</h2>
-      <p class="text-[16px] text-gray-600 py-2">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
-      <p>Listen <span class="text-red-600">➔</span> </p>
-    </div>
-  </div>
-</section>
+    </section>    
 
     <section class="w-full h-[564px] bg-pink-200 mt-3 md:mt-44 relative">
         <div class="flex flex-col items-center py-20 px-4 lg:py-32">
@@ -578,22 +594,22 @@
           <div class="w-full md:w-[79px] mb-6">
             <h3 class="text-lg font-semibold mb-4">SITE MAP</h3>
             <ul class="space-y-2 text-gray-400">
-              <li><a class="hover:text-white">About Us</a></li>
-              <li><a class="hover:text-white">Courses</a></li>
-              <li><a class="hover:text-white">Events</a></li>
-              <li><a class="hover:text-white">Blog</a></li>
-              <li><a class="hover:text-white">Contacts</a></li>
+              <li><a href="../About us/about.html" class="hover:text-white">About Us</a></li>
+              <li><a href="../Courses/index.html" class="hover:text-white">Courses</a></li>
+              <li><a class="hover:text-white">Event</a></li>
+              <li><a href="../Blog/index.html" class="hover:text-white">Blog</a></li>
+              <li><a href="../Contacts/index.html" class="hover:text-white">Contacts</a></li>
             </ul>
           </div>
 
           <div class="w-full md:w-[109px] mb-6">
             <h3 class="text-lg font-semibold mb-4">COURSES</h3>
             <ul class="space-y-2 text-gray-400">
-              <li><p>Marketing</p></li>
-              <li><p>Management</p></li>
-              <li><p>HR & Recruiting</p></li>
-              <li><p>Design</p></li>
-              <li><p>Development</p></li>
+              <li><a class="hover:text-white">Course</a></li>
+              <li><a href="../Events Grid View/index.html" class="hover:text-white">Event grid view</a></li>
+              <li><a href="../Events List View/index.html" class="hover:text-white">Event list view</a></li>
+              <li><a href="../Homepage/index.html" class="hover:text-white">Homepage</a></li>
+              <li><a href="../Single Post/index.html" class="hover:text-white">Single post</a></li>
             </ul>
           </div>
 
