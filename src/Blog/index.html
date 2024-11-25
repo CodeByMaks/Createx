@@ -36,71 +36,51 @@
     </header>
 
     <main>
-      <aside class="text-center my-14">
-        <p class="text-[16px] font-bold md:text-[18px]">OUR BLOG</p>
-        <h1 class="text-[46px] font-bold md:text-[36px]">
+      <aside class="text-center my-14 px-4">
+        <p class="text-[16px] font-bold md:text-[18px] text-gray-600">OUR BLOG</p>
+        <h1 class="text-[36px] md:text-[46px] font-bold text-gray-900 leading-tight">
           Createx School Journal
         </h1>
       </aside>
-
-      <section class="w-[90%] md:w-[80%] m-auto my-20 flex justify-between">
-        <div class="flex items-center gap-4">
-          <div>
-            <button
-              class="py-3 px-4 border-2 border-red-400 text-red-400 font-bold"
-            >
-              All
-            </button>
-          </div>
-          <div>
-            <button class="py-3 px-5">
-              <img class="inline-block" src="../img/Files.png" alt="" />
-              Articles
-            </button>
-          </div>
-          <div>
-            <button class="py-3 px-5">
-              <img class="inline-block" src="../img/Play.png" alt="" />
-              Videos
-            </button>
-          </div>
-          <div>
-            <button class="py-3 px-5">
-              <img class="inline-block" src="../img/mic.png" alt="" />
-              Podcasts
-            </button>
-          </div>
+      
+      <section class="w-[90%] md:w-[80%] m-auto my-20 flex flex-wrap justify-between gap-6">
+        <div class="flex items-center gap-4 flex-wrap">
+          <button class="py-3 px-4 border-2 border-red-400 text-red-400 font-bold">
+            All
+          </button>
+          <button class="py-3 px-5">
+            <img class="inline-block" src="../img/Files.png" alt="" />
+            Articles
+          </button>
+          <button class="py-3 px-5">
+            <img class="inline-block" src="../img/Play.png" alt="" />
+            Videos
+          </button>
+          <button class="py-3 px-5">
+            <img class="inline-block" src="../img/mic.png" alt="" />
+            Podcasts
+          </button>
         </div>
-
-        <div class="flex items-center gap-7">
+      
+        <div class="flex items-center gap-7 flex-wrap">
           <label>Blog category</label>
-          <select
-            class="border-2 border-gray-300 py-3 w-[160px] px-3 rounded-md"
-            name=""
-            id=""
-          >
+          <select class="border-2 border-gray-300 py-3 w-[160px] px-3 rounded-md">
             <option value="">all themes</option>
           </select>
-
-          <div>
-            <div
-              class="flex border-2 py-1 w-full md:w-[282px] border-gray-300 rounded-lg items-center"
-            >
-              <input
-                class="py-2 w-[240px] px-3"
-                type="search"
-                name=""
-                id=""
-                placeholder="Search blog..."
-              />
-              <div>
-                <img src="../img/search.png" alt="" />
-              </div>
+      
+          <div class="flex border-2 py-1 w-full md:w-[282px] border-gray-300 rounded-lg items-center">
+            <input
+              class="py-2 w-[240px] px-3"
+              type="search"
+              placeholder="Search blog..."
+            />
+            <div>
+              <img src="../img/search.png" alt="" />
             </div>
           </div>
         </div>
       </section>
-
+      
       <section class="w-[80%] m-auto">
         <div class="grid grid-cols-1 md:grid-cols-3 grid-rows-1 gap-6">
           <div>
@@ -158,36 +138,37 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-2 grid-rows-1 gap-6 my-11">
+        <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-6 my-11">
+
+          <div>
+            <img class="w-full h-[255px] object-cover" src="../img/image.jpg" alt="">
             <div>
-                 <img src="../img/image.jpg" alt="">
-                 <div>
-                    <p class="text-gray-500 py-2">
-                        HR & Recruting |
-                        <img class="inline-block" src="../img/Calendar.png" alt="" />
-                        August 3, 2020
-                    </p>
-                 </div>
-                 <h2 class="text-[20px]">HR statistics: job search,  interviews, hiring and recruiting</h2>
+              <p class="text-gray-500 py-2">
+                HR & Recruiting |
+                <img class="inline-block" src="../img/Calendar.png" alt="" />
+                August 3, 2020
+              </p>
+            </div>
+            <h2 class="text-[20px]">HR statistics: job search, interviews, hiring and recruiting</h2>
             <p class="text-[16px] text-gray-600 py-2">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
-            <p>Listen <span class="text-red-600">➔</span> </p>
-            </div>
+            <p>Listen <span class="text-red-600">➔</span></p>
+          </div>
+        
+          <div>
+            <img class="w-full h-[255px] object-cover" src="../img/image1.png" alt="">
+            <p class="text-gray-500 py-2">
+              Marketing |
+              <img class="inline-block" src="../img/Calendar.png" alt="" />
+              September 4, 2020 |
+              <img class="inline-block" src="../img/Clock.png" alt="" />
+              36 min
+            </p>
             <div>
-                <img class="w-full h-[255px] object-cover" src="../img/image1.png" alt="">
-                <p class="text-gray-500 py-2">
-                    Marketing |
-                    <img class="inline-block" src="../img/Calendar.png" alt="" />
-                    September 4, 2020 |
-                    <img class="inline-block" src="../img/Clock.png" alt="" />
-                    36 min
-                  </p>
-                  <div>
-                    <h2>What to do and who to talk to if you want to get feedback on the product</h2>
-                    <p class="text-[16px] text-gray-600 py-2">Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus. Curabitur nisl tincidunt eros venenatis...</p>
-                    <p>Watch <span class="text-red-600">➔</span> </p>
-                </div>
-                </div>
+              <h2 class="text-[20px]">What to do and who to talk to if you want to get feedback on the product</h2>
+              <p class="text-[16px] text-gray-600 py-2">Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus. Curabitur nisl tincidunt eros venenatis...</p>
+              <p>Watch <span class="text-red-600">➔</span></p>
             </div>
+          </div>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 grid-rows-1 gap-6">
@@ -256,26 +237,27 @@
       </aside>
 
       <section class="w-full h-[564px] bg-pink-50 mt-3 md:mt-52">
-       <div class="w-[75%] m-auto flex items-center justify-between py-12">
-           <div>
-             <img src="../img/illustration (2).png" alt="">
+        <div class="w-full h-full max-w-screen-xl m-auto flex flex-col lg:flex-row items-center justify-between py-12 px-4">  
+          <div class="w-full lg:w-[45%] mb-6 lg:mb-0">
+            <img src="../img/illustration (2).png" alt="" class="w-full h-auto object-contain">
           </div>
-          <div>
-            <h1 class="text-[32px]">Want to get the best articles weekly? <br>
-                Subscribe to our newsletter!</h1>
-                <div class="flex flex-col lg:flex-row gap-6 my-6 w-full max-w-2xl">
-                    <input class="py-3 px-4 rounded-md border border-gray-300 w-full lg:w-[70%] focus:outline-none focus:ring-2 focus:ring-[#FF3F3A]" placeholder="Your working email" type="text">
-                    <button class="w-full lg:w-auto py-3 px-11 bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-md">Subscribe</button>
-                </div>
-                <div>
-                    <input type="checkbox" name="" id="" />
-                    <span class="text-[16px] text-gray-500"
-                      >I agree to receive communications from Createx Online School</span
-                    >
-                  </div>
+      
+          <div class="w-full lg:w-[50%]">
+            <h1 class="text-[32px] text-center lg:text-left">Want to get the best articles weekly? <br> Subscribe to our newsletter!</h1>
+            
+            <div class="flex flex-col lg:flex-row gap-6 my-6 w-full max-w-2xl">
+              <input class="py-3 px-4 rounded-md border border-gray-300 w-full lg:w-[70%] focus:outline-none focus:ring-2 focus:ring-[#FF3F3A]" placeholder="Your working email" type="text">
+              <button class="w-full lg:w-auto py-3 px-11 bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-md">Subscribe</button>
+            </div>
+            
+            <div class="flex items-center">
+              <input type="checkbox" name="" id="" class="mr-2">
+              <span class="text-[16px] text-gray-500">I agree to receive communications from Createx Online School</span>
+            </div>
           </div>
-       </div>
+        </div>
       </section>
+      
     </main>
 
     <footer class="bg-gray-900 text-white pt-10">
